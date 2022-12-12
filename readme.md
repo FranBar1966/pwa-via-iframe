@@ -4,9 +4,17 @@ Convert Web sites into Progressive Web Applications using IFRAME.
 
 It works with any Web site that allows it to be displayed inside an iframe. Large sites like google, facebook, etc. do not allow this.
 
+## Example
+
+As an example I have created a PWA from this same repository that you can see in /example-ipwa/
+
+For this repository to be installed as PWA in mobile devices as well as in Windows/iOS/Linux desktop go to: https://thenocoder.github.io/pwa-via-iframe
+
 ## Get started
 
 Simply download this repository and copy the /ipwa/ directory to the site you want to convert to PWA.
+
+The /example-ipwa/ directory can be ignored or deleted.
 
 You will need to edit the /ipwa/index.html file and in the IFRAME SRC you put the URL of the site you want to convert.
 
