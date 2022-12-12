@@ -8,7 +8,7 @@ It works with any Web site that allows it to be displayed inside an iframe. Larg
 
 As an example I have created a PWA from this same repository that you can see in /example-ipwa/
 
-For this repository to be installed as PWA in mobile devices as well as in Windows/iOS/Linux desktop go to: https://thenocoder.github.io/pwa-via-iframe
+For this repository to be installed as PWA in mobile devices as well as in Windows/iOS/Linux desktop go to: https://thenocoder.github.io/pwa-via-iframe/example-ipwa/
 
 ## Get started
 
