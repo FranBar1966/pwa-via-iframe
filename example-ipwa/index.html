@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="">
+    <!-- https://github.com/TheNocoder/pwa-via-iframe -->
+    <head>
+        <title>PWA via Iframe</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="Iframe PWA">
+        <meta name="apple-mobile-web-app-title" content="Iframe PWA">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="manifest" href="/pwa-via-iframe/example-ipwa/manifest.json">
+        <style>
+            body, html {
+                overflow: hidden;
+                height: 100%;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="width:100%; height:100%; overflow: hidden; position: absolute; top: 0; left: 0; right: 0; bottom: 0;">
+            <iframe src="https://thenocoder.github.io/pwa-via-iframe/" style="width: 100%;height: 100%;border: none; overflow: auto;"></iframe>
+        </div>
+        <script>
+            var serviceWorkerReg = false;
+            window.addEventListener('load', function() {
+                if ('serviceWorker' in navigator) {
+                    serviceWorkerReg = navigator.serviceWorker.register('/pwa-via-iframe/example-ipwa/service-worker.js');
+                }
+            });
+        </script>
+    </body>
+</html>
