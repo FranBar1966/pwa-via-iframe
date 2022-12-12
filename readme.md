@@ -1,5 +1,5 @@
-Convert Web into PWA
-====================
+Convert Web to PWA
+==================
 Convert Web sites into Progressive Web Applications using IFRAME.
 
 ![Progressive_Web_App](https://user-images.githubusercontent.com/114579121/207160550-9564627e-3ce1-4984-8a53-13906561c3b1.png)
