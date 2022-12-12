@@ -56,6 +56,47 @@ In /ipwa/manifest.json you can also change the background and theme color:
 
 You can change the PWA icons to your own, simply in the /ipwa/icons/ directory overwrite them, they must be PNG and the size is specified in the filename.
 
+### Change ipwa directory
+
+In case you simply want to rename /ipwa/ or add more /ipwa-1/, /ipwa-2/ ... You will have to change all files in this repository /ipwa/ to the name you want.
+
+In /ipwa/index.html
+```hmtl
+...
+<link rel="manifest" href="/ipwa/manifest.json">
+...
+<script>
+    ...
+    serviceWorkerReg = navigator.serviceWorker.register('/ipwa/service-worker.js');
+    ...
+</script>
+```
+
+In /ipwa/manifest.json
+```hmtl
+...
+"id": "/ipwa/",
+"start_url": "/ipwa/",
+"icons": [
+    {
+        "src": "/ipwa/icons/32x32.png",
+        ...
+    },
+    {
+        "src": "/ipwa/icons/192x192.png",
+        ...
+    },
+    {
+        "src": "/ipwa/icons/512x512.png",
+        ...
+    },
+    {
+        "src": "/ipwa/icons/512-maskable.png",
+        ..
+    }
+]
+```
+
 ## License
 
 MIT License
