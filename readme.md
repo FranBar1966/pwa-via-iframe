@@ -6,7 +6,7 @@ Convert Web sites into Progressive Web Applications using IFRAME.
 
 It works with any Web site that allows it to be displayed inside an iframe. Large sites like google, facebook, etc. do not allow this.
 
-## Example
+## Demo
 
 As an example I have created a PWA from this same repository that you can see in /example-ipwa/
 
