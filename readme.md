@@ -107,6 +107,8 @@ In /ipwa/manifest.json
 ]
 ```
 
+https://github.com/FranBar1966/pwa-via-iframe
+
 ## License
 
 MIT License
