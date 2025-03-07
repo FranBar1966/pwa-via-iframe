@@ -1,4 +1,4 @@
-[Convert Web to APP/PWA](https://github.com/FranBar1966/pwa-via-iframe)
+<a href="https://github.com/FranBar1966/pwa-via-iframe" target="_blank">Convert Web to APP/PWA</a>
 ======================
 Convert Web sites into Progressive Web Applications using IFRAME.
 
@@ -107,7 +107,7 @@ In /ipwa/manifest.json
 ]
 ```
 
-[Convert Web to APP/PWA](https://github.com/FranBar1966/pwa-via-iframe)
+<a href="https://github.com/FranBar1966/pwa-via-iframe" target="_blank">Convert Web to APP/PWA</a>
 
 ## License
 
