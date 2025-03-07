@@ -107,7 +107,7 @@ In /ipwa/manifest.json
 ]
 ```
 
-<a href="https://github.com/FranBar1966/pwa-via-iframe" target="_blank">Convert Web to APP/PWA</a>
+[Convert Web to APP/PWA](https://github.com/FranBar1966/pwa-via-iframe){:target="_blank"}
 
 ## License
 
